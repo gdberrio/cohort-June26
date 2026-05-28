@@ -1,0 +1,4 @@
+# Optional Meridian stack for Week 3.
+-r requirements.txt
+
+google-meridian>=1.0

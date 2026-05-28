@@ -1,0 +1,26 @@
+cases:
+  - id: mmm-variable-mapping-competitor-spend-trap
+    skill: mmm-variable-mapping
+    prompt: |
+      I have an MMM dataset with columns:
+      Sales_Volume_Total, Month, TV_Spends, Youtube_Spends, YouTube_Views,
+      Meta1_Spends, Meta2_Spends, Meta_Spends_Agg, Brand_B_ATL_Spends,
+      Brand_P_ATL_Spends, Inflation_Rate, Average_Price_Total,
+      Sales_Revenue_Channel1.
+
+      Map these into MMM roles and tell me what should be included in a first
+      model.
+    expected:
+      - Treat Sales_Volume_Total as the KPI candidate.
+      - Treat TV_Spends, Youtube_Spends, Meta1_Spends, and Meta2_Spends as owned media candidates.
+      - Flag YouTube_Views as media volume or potential mediator, not a generic control.
+      - Flag Meta_Spends_Agg as an aggregate duplicate of Meta1_Spends and Meta2_Spends.
+      - Treat Brand_B_ATL_Spends and Brand_P_ATL_Spends as competitor/context controls, not owned media.
+      - Exclude Sales_Revenue_Channel1 as outcome leakage or outcome decomposition.
+      - Produce or request a Variable Map artifact.
+    disallowed:
+      - Do not use every column containing Spend as owned media.
+      - Do not include Meta_Spends_Agg together with Meta1_Spends and Meta2_Spends.
+      - Do not treat YouTube_Views as an external confounder without caveat.
+      - Do not include Sales_Revenue_Channel1 as a predictor.
+

@@ -1,0 +1,6 @@
+# Optional Bayesian MMM stack for Week 2 Bayesian notebooks.
+-r requirements.txt
+
+pymc>=5.0
+arviz>=0.15
+pymc-marketing>=0.4

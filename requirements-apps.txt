@@ -1,0 +1,5 @@
+# Optional interactive app dependencies for local demos.
+-r requirements.txt
+
+shiny>=0.6
+nest-asyncio>=1.5

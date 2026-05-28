@@ -1,0 +1,6 @@
+# Optional GeoLift/R bridge stack for Week 4.
+# Requires a working R installation before installing rpy2.
+-r requirements.txt
+
+rpy2>=3.5
+tfp-causalimpact>=0.2.0

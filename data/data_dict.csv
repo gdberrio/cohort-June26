@@ -1,0 +1,55 @@
+﻿Variable Name,Description
+Month,Month
+Sales_Revenue_Total,Total Sales Revenue in USD
+Sales_Volume_Total,Total Number of units sold
+Average_Price_Total,Average Price of all the products
+Market_Share_Brand_M_Total,Market share of brand M
+Sales_Revenue_Category1,Sales Revenue from Category 1 in USD
+Sales_Volume_(Units_sold)_Category1,Number of units sold for Category 1
+Average_Price_Category1,Average Price of the products of Category 1
+Sales_Revenue_Channel1,Sales Revenue from Channel 1 in USD
+Sales_Volume_(Units_sold)_Channel1,Number of units sold through Channel 1
+Average_Price_Channel1,Average Price of the products of Channel 1
+Sales_Revenue_Channel2,Sales Revenue from Channel 2 in USD
+Sales_Volume_Channel2,Number of units sold through Channel 2
+Average_Price_Channel2,Average Price of the products of Channel 2
+Sales_Revenue_Category2,Sales Revenue from Category 2 in USD
+Sales_Volume_(Units_sold)_Category2,Number of units sold for Category 2
+Average_Price_Category2,Average Price of the products of Category 2
+Sales_Revenue_Category3,Sales Revenue from Category 3 in USD
+Sales_Volume_(Units_sold)_Category3,Number of units sold for Category 3
+Average_Price_Category3,Average Price of the products of Category 3
+Inflation_Rate,Inflation Rate in the country
+Brand_PH_Market_Share,Market share of the competitor brand PH
+Brand_B_Market_Share,Market share of the competitor brand B
+Brand_P_Market_Share,Market share of the competitor brand P
+Brand_PH_Avg_Price,Average Price of all the products of Brand PH
+Brand_B_Avg_Price,Average Price of all the products of Brand B
+Brand_P_Avg_Price,Average Price of all the products of Brand P
+TV_GRP,Gross Point Ratings of TV
+TV_Spends,Amount Spend on TV Advertising in USD
+Radio_Spends,Amount Spend on Radio Advertising in USD
+Outdoor_Spends,Amount Spend on Outdoor Advertising in USD
+Paid_Search_Spends,Amount Spend on Paid Search Advertising in USD
+Programmatic_Display_Spends,Amount Spend on Programmatic Display Advertising in USD
+Google_Display_Spend,Amount Spend on Google Display Advertising in USD
+Direct_Display_Spend,Amount Spend on Direct Display Advertising in USD
+Meta1_Spends,Amount Spend on advertising in META platform 1 in USD
+Programmatic_Video_Spends,Amount Spend on Programmatic Video Advertising in USD
+Youtube_Spends,Amount Spend on YouTube Advertising in USD
+Meta2_Spends,Amount Spend on advertising in META platform 2 in USD
+Meta_Spends_Agg,Total Amount Spend on META platforms in USD
+Paid_Search_Impressions,Paid Search Impressions
+Direct_Display_Impressions,Direct Display Impressions
+Programmatic_Display_Impressions,Programmatic Display Impressions
+Google_Display_Impressions,Google Display Impressions
+Online_Video_Impressions,Online Video Impressions
+Meta_Agg_Impressions,Total Impressions on META platforms
+YouTube_Views,YouTube Views
+Paid_Search_Clicks,Paid Search Clicks
+META_Clicks,META Clicks
+Online_Video_Views,Online Video Views
+Influencer_Marketing_Spends,Amount Spend on Influencer Marketing in USD
+Brand_B_ATL_Spends,Above The Line Marketing Spends of Competitor Brand B in USD
+Brand_PH_ATL_Spends,Above The Line Marketing Spends of Competitor Brand PH in USD
+Brand_P_ATL_Spends,Above The Line Marketing Spends of Competitor Brand P in USD

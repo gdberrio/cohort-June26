@@ -1,0 +1,21 @@
+Variable Name,Description
+date,"Week start date (Monday), 104 weeks from 2022-01-03 to 2023-12-25"
+geo,"Geographic region: northeast, southeast, midwest, west, or southwest"
+revenue,"Weekly revenue in USD, driven by base level + seasonality + media effects − price deviation − competitor pressure + noise"
+tv_spend,Weekly TV advertising spend in USD (flighted — active ~60% of weeks with heavier spend in Q4)
+tv_impressions,"TV impressions delivered, derived from tv_spend / tv_cpm × 1000"
+tv_cpm,"TV cost per mille (per 1,000 impressions), time-varying around a $25 base with seasonal inflation"
+digital_spend,Weekly digital advertising spend in USD (always-on with Q4 uplift)
+digital_impressions,"Digital impressions delivered, derived from digital_spend / digital_cpm × 1000"
+digital_cpm,"Digital cost per mille (per 1,000 impressions), time-varying around an $8 base"
+social_spend,Weekly social media advertising spend in USD (active ~75% of weeks)
+social_impressions,"Social media impressions delivered, derived from social_spend / social_cpm × 1000"
+social_cpm,"Social media cost per mille (per 1,000 impressions), time-varying around a $6 base"
+search_spend,Weekly paid search advertising spend in USD (always-on with seasonal demand pattern)
+search_impressions,"Paid search impressions delivered, derived from search_spend / search_cpm × 1000"
+search_cpm,"Paid search cost per mille (per 1,000 impressions), time-varying around a $15 base"
+display_spend,Weekly display advertising spend in USD (active ~50% of weeks)
+display_impressions,"Display impressions delivered, derived from display_spend / display_cpm × 1000"
+display_cpm,"Display cost per mille (per 1,000 impressions), time-varying around a $4 base"
+price_index,"Product price index centered at 100 with slow random drift, clipped to [85, 115]. Higher values reduce revenue."
+competitor_spend,"Competitor weekly advertising spend in USD, with moderate noise, slight upward trend, and ~26-week cyclicality. Higher values reduce revenue."
