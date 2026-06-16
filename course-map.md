@@ -96,6 +96,7 @@ For the recommended reading sequence, use `references/reading-roadmap.md`.
 - `week-3/offline/reading_09_pymc_marketing_time_effects.md`
 - `week-3/offline/reading_10_attribution_models.md`
 - `week-3/offline/notebook_06_attribution.ipynb`
+- `week-3/offline/attribution-deep-dives/README.md`
 - `week-3/session-6/session_06_attribution_byod.ipynb`
 - `skills/course-examples/meridian-model/SKILL.md`
 - `artifacts/meridian-model-spec-template.md`
@@ -109,6 +110,8 @@ For the recommended reading sequence, use `references/reading-roadmap.md`.
 - Keep attribution as a measurement method, but connect it to agent validation:
   agents can compute Shapley or Markov outputs, but students must interpret
   limits.
+- Add deeper attribution variants for Markov chains, probabilistic lift,
+  regression-based marginal effects, and LSTM/BERT-like sequence models.
 
 ### Deliverables
 

@@ -148,7 +148,16 @@ Attribution sequence:
 
 1. `week-3/offline/reading_10_attribution_models.md`
 2. `week-3/offline/notebook_06_attribution.md`
-3. `week-3/session-6/session_06_attribution_byod.md`
+3. `week-3/offline/attribution-deep-dives/README.md`
+4. `week-3/offline/attribution-deep-dives/markov_chain_attribution.md`
+5. `week-3/offline/attribution-deep-dives/notebook_markov_chain_attribution.md`
+6. `week-3/offline/attribution-deep-dives/probabilistic_attribution.md`
+7. `week-3/offline/attribution-deep-dives/notebook_probabilistic_attribution.md`
+8. `week-3/offline/attribution-deep-dives/regression_based_attribution.md`
+9. `week-3/offline/attribution-deep-dives/notebook_regression_based_attribution.md`
+10. `week-3/offline/attribution-deep-dives/sequence_models_attribution.md`
+11. `week-3/offline/attribution-deep-dives/notebook_sequence_model_attribution.md`
+12. `week-3/session-6/session_06_attribution_byod.md`
 
 Instructor note: the Meridian skill is intentionally framework-specific. Use it
 to show why skills are useful when a tool has strict array, dimension, and
