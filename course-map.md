@@ -126,6 +126,10 @@ For the recommended reading sequence, use `references/reading-roadmap.md`.
 
 - `week-4/session-7/session_07_experimentation_geolift.ipynb`
 - `week-4/offline/notebook_07_power_analysis.ipynb`
+- `week-4/offline/causalpy-marketing-examples/README.md`
+- `week-4/offline/causalpy-marketing-examples/causal_design_map.md`
+- `week-4/offline/causalpy-marketing-examples/notebook_panel_methods.ipynb`
+- `week-4/offline/causalpy-marketing-examples/notebook_cross_sectional_methods.ipynb`
 - `week-4/offline/reading_11_calibrating_mmm.md`
 - `week-4/session-8/session_08_prior_calibration.ipynb`
 - `capstone/capstone-guide.md`
@@ -142,6 +146,10 @@ Optional March reference:
 ### New June Layer
 
 - Compare manual geo-experiment design prompts with a reusable skill workflow.
+- Translate CausalPy quasi-experimental examples into marketing and commercial
+  analytics settings: interrupted time series, synthetic control, geolift,
+  difference-in-differences, regression discontinuity, instrumental variables,
+  and propensity weighting.
 - Teach calibration handoff as the bridge from experiments to MMM.
 - Add behavior evals for skills and agent workflows.
 - Use the step-by-step skill-writing guide before capstone skill patches.
@@ -150,6 +158,8 @@ Optional March reference:
 ### Deliverables
 
 - Lift-test design brief or experiment analysis report.
+- Causal design choice with assumptions, validation checks, and reusable
+  evidence output.
 - Calibration handoff.
 - One skill or skill patch.
 - One behavior eval case.

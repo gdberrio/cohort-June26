@@ -171,14 +171,18 @@ Required sequence:
 
 1. `week-4/session-7/session_07_experimentation_geolift.md`
 2. `week-4/offline/notebook_07_power_analysis.md`
-3. `skills/course-examples/marketing-lift-design/SKILL.md`
-4. `references/geo-experiment-agent-demo-guide.md`
-5. `week-4/offline/reading_11_calibrating_mmm.md`
-6. `week-4/session-8/session_08_prior_calibration.md`
-7. `skills/course-examples/calibration-strategy/SKILL.md`
-8. `artifacts/calibration-handoff-template.md`
-9. `labs/week-4/evals-and-calibration-lab.md`
-10. `evals/skills/mmm-variable-mapping/cases.yaml`
+3. `week-4/offline/causalpy-marketing-examples/README.md`
+4. `week-4/offline/causalpy-marketing-examples/causal_design_map.md`
+5. `week-4/offline/causalpy-marketing-examples/notebook_panel_methods.md`
+6. `week-4/offline/causalpy-marketing-examples/notebook_cross_sectional_methods.md`
+7. `skills/course-examples/marketing-lift-design/SKILL.md`
+8. `references/geo-experiment-agent-demo-guide.md`
+9. `week-4/offline/reading_11_calibrating_mmm.md`
+10. `week-4/session-8/session_08_prior_calibration.md`
+11. `skills/course-examples/calibration-strategy/SKILL.md`
+12. `artifacts/calibration-handoff-template.md`
+13. `labs/week-4/evals-and-calibration-lab.md`
+14. `evals/skills/mmm-variable-mapping/cases.yaml`
 
 Capstone sequence:
 
@@ -206,7 +210,8 @@ Use this condensed path when students are focused on their final project.
 3. The week materials that match their method:
    - MMM: Week 2 readings, notebooks, and variable-mapping skill
    - Meridian: Week 3 Meridian readings, notebooks, and model skill
-   - Experiment or calibration: Week 4 experiment and calibration materials
+   - Experiment or calibration: Week 4 experiment, CausalPy-inspired
+     quasi-experiment, and calibration materials
    - Attribution: Week 3 attribution readings and notebooks
 4. `artifacts/agent-output-validation-checklist.md`
 5. `artifacts/model-iteration-log-template.md`
